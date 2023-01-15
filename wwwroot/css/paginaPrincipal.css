@@ -1,0 +1,95 @@
+﻿#foto {
+    width: 200px;
+    margin: 2rem auto;
+    border-radius: 50%;
+    transition: 0.5s;
+    box-shadow: 0px 5px 10px black;
+}
+#logo {
+    position:absolute;
+    object-fit:contain;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+}
+#foto:hover {
+    
+    transform: perspective(600px) rotateY(180deg);
+}
+.seccion-bienvenida{
+    text-align:center;
+    margin:auto;
+}
+.card {
+    width: 300px;
+    height: 350px;
+    margin:10px;
+    background-color: transparent;
+    border: hidden;
+}
+.padre {
+    display:flex;
+    justify-content:space-evenly;
+}
+.card .face{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    border-radius:10px;
+    overflow:hidden;
+    transition:.5s;
+}
+.card .front{
+    transform:perspective(600px) rotateY(0deg);
+    box-shadow:0px 5px 10px #000000;
+}
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.card .front h3{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:45px;
+    line-height:45px;
+    color:#ffffff;
+    background:#000004;
+    text-align:center;
+    opacity:0.6
+}
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background:#808080;
+    padding:15px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    text-align:center;
+    box-shadow:0px 5px 10px black;
+}
+.card .back .link {
+    border-top:solid 1px white;
+    height:50px;
+    line-height:50px;
+}
+.card .back .link a{
+    color:white;
+}
+.card .back h3{
+    font-size:30px;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
