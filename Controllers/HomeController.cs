@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Portafolio.Models;
+using Portafolio.Servicios;
 using System.Diagnostics;
 
 namespace Portafolio.Controllers
@@ -7,56 +8,19 @@ namespace Portafolio.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly IRepositorioProyectos repositorioProyectos;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos)
         {
             _logger = logger;
+            this.repositorioProyectos = repositorioProyectos;
         }
 
         public IActionResult Index()
         {
-            var proyectos = ObtenerProyectos().Take(3).ToList();
+            var proyectos = repositorioProyectos.ObtenerProyectos().Take(3).ToList();
             var modelo = new HomeIndexViewModel() { Proyectos= proyectos };
             return View(modelo);
-        }
-
-        private List<Proyecto> ObtenerProyectos()
-        {
-            return new List<Proyecto>()
-            {
-                new Proyecto
-                {
-
-                Titulo = "Amazon",
-                Descripcion = "ejemplo1",
-                Link = "https://amazon.com",
-                ImagenURL = "/img/lobo the witcher.jpg"
-                },
-                new Proyecto
-                {
-
-                Titulo = "Amazon",
-                Descripcion = "ejemplo2",
-                Link = "https://amazon.com",
-                ImagenURL = "/img/lobo the witcher.jpg"
-                },
-                new Proyecto
-                {
-
-                Titulo = "Amazon",
-                Descripcion = "ejemplo3",
-                Link = "https://amazon.com",
-                ImagenURL = "/img/lobo the witcher.jpg"
-                },
-                new Proyecto
-                {
-
-                Titulo = "Amazon",
-                Descripcion = "ejemplo4",
-                Link = "https://amazon.com",
-                ImagenURL = "/img/lobo the witcher.jpg"
-                }
-            };
         }
 
         public IActionResult Privacy()
