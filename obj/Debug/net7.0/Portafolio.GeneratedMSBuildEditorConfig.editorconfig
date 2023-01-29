@@ -24,16 +24,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/maico/Documents/proyectos/Portafolio/Portafolio/Views/Home/Proyectos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm95ZWN0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/maico/Documents/proyectos/Portafolio/Portafolio/Views/Home/_Habilidades.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfSGFiaWxpZGFkZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maico/Documents/proyectos/Portafolio/Portafolio/Views/Home/_ListadoProyectos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfTGlzdGFkb1Byb3llY3Rvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maico/Documents/proyectos/Portafolio/Portafolio/Views/Home/_Presentacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUHJlc2VudGFjaW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maico/Documents/proyectos/Portafolio/Portafolio/Views/Home/_Proyectos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUHJveWVjdG9zLmNzaHRtbA==
+[C:/Users/maico/Documents/proyectos/Portafolio/Portafolio/Views/Home/_SeccionProyectos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU2VjY2lvblByb3llY3Rvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maico/Documents/proyectos/Portafolio/Portafolio/Views/Shared/Error.cshtml]

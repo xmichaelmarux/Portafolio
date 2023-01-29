@@ -23,6 +23,12 @@ namespace Portafolio.Controllers
             return View(modelo);
         }
 
+        public IActionResult Proyectos()
+        {
+            var proyectos = repositorioProyectos.ObtenerProyectos();
+            return View(proyectos);
+        }
+
         public IActionResult Privacy()
         {
             return View();
