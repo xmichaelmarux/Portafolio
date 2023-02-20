@@ -29,3 +29,17 @@ C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\obj\Debug\net7.0\refint
 C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\obj\Debug\net7.0\Portafolio.pdb
 C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\obj\Debug\net7.0\Portafolio.genruntimeconfig.cache
 C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\obj\Debug\net7.0\ref\Portafolio.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\SendGrid.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\StarkbankEcdsa.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\obj\Debug\net7.0\Portafolio.csproj.CopyComplete
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\MailKit.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\MimeKit.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\NETCore.MailKit.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\maico\Documents\proyectos\Portafolio\Portafolio\bin\Debug\net7.0\Twilio.dll
